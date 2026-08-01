@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>CCQ · 450 questions + Mode Test (40)</title>
+<style>
+body{background:#0f172a;color:#eee;font-family:sans-serif;margin:0;padding:0}
+.wrap{max-width:900px;margin:auto;padding:20px}
+.card{background:#111827;border-radius:12px;padding:16px;margin-top:16px}
+.opt{display:block;width:100%;margin-top:8px;padding:10px;border-radius:8px;border:1px solid #333;background:#1e293b;color:#eee;text-align:left;cursor:pointer}
+.opt.correct{background:#064e3b;color:#bbf7d0;border-color:#10b981}
+.opt.wrong{background:#78350f;color:#fde68a;border-color:#f59e0b}
+.controls{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+button,select{padding:8px 12px;border-radius:8px;background:#1e293b;color:#eee;border:1px solid #444;cursor:pointer}
+button:hover,select:hover{background:#334155}
+.hidden{display:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h2>Banque CCQ · 450 + Mode Test (40)</h2>
+<div class="controls">
+  <label>Mode
+    <select id="modeSel">
+      <option value="train">Entraînement (450)</option>
+      <option value="test">Test (40 questions ngẫu nhiên)</option>
+    </select>
+  </label>
+  <label>Section
+    <select id="sectionSel"></select>
+  </label>
+  <button id="restartBtn">Recommencer</button>
+  <button id="prevBtn">Précédent</button>
+  <button id="nextBtn">Suivant</button>
+</div>
+<div id="qCard" class="card"></div>
+<div id="resultCard" class="card hidden"></div>
+</div>
+
+<script>
+// Ngân hàng câu hỏi dữ liệu chuẩn
+const BANK = [
+  {"id": "organiser-1", "section": "organiser", "question": "Quel EPI est prioritaire pour poncer un mur?", "options": ["Aucun", "Lunettes", "Chaussures ville", "Gants"], "answer": 1, "official": false, "src": "généré"},
+  {"id": "organiser-2", "section": "organiser", "question": "Avant de commencer, quelle est la première étape pour protéger chantier?", "options": ["Appeler client", "Commencer direct", "Choisir couleur", "Vérifier plan"], "answer": 3, "official": false, "src": "généré"},
+  {"id": "organiser-3", "section": "organiser", "question": "Quel grain abrasif pour finition avant peinture murs intérieurs?", "options": ["P24", "P80", "P120-180", "P40"], "answer": 2, "official": false, "src": "généré"},
+  {"id": "organiser-4", "section": "organiser", "question": "Quel EPI est prioritaire pour poncer un mur?", "options": ["Lunettes", "Chaussures ville", "Aucun", "Gants"], "answer": 0, "official": false, "src": "généré"},
+  {"id": "organiser-5", "section": "organiser", "question": "Avant de commencer, quelle est la première étape pour protéger chantier?", "options": ["Vérifier plan", "Appeler client", "Commencer direct", "Choisir couleur"], "answer": 0, "official": false, "src": "généré"},
+  {"id": "organiser-6", "section": "organiser", "question": "Quel grain abrasif pour finition avant peinture murs intérieurs?", "options": ["P120-180", "P80", "P40", "P24"], "answer": 0, "official": false, "src": "généré"},
+  {"id": "organiser-7", "section": "organiser", "question": "Quel EPI est prioritaire pour peindre au pistolet?", "options": ["Chaussures ville", "Lunettes", "Aucun", "Gants"], "answer": 1, "official": false, "src": "généré"},
+  {"id": "organiser-8", "section": "organiser", "question": "Avant de commencer, quelle est la première étape pour installer échafaudage?", "options": ["Vérifier plan", "Appeler client", "Choisir couleur", "Commencer direct"], "answer": 0, "official": false, "src": "généré"},
+  {"id": "organiser-9", "section": "organiser", "question": "Quel grain abrasif pour finition avant peinture murs intérieurs?", "options": ["P80", "P24", "P40", "P120-180"], "answer": 3, "official": false, "src": "généré"},
+  {"id": "organiser-10", "section": "organiser", "question": "Quel EPI est prioritaire pour peindre au pistolet?", "options": ["Aucun", "Chaussures ville", "Lunettes", "Gants"], "answer": 2, "official": false, "src": "généré"},
+  {"id": "organiser-11", "section": "organiser", "question": "Avant de commencer, quelle est la première étape pour installer échafaudage?", "options": ["Appeler client", "Vérifier plan", "Commencer direct", "Choisir couleur"], "answer": 1, "official": false, "src": "généré"},
+  {"id": "organiser-12", "section": "organiser", "question": "Quel grain abrasif pour finition avant peinture murs intérieurs?", "options": ["P120-180", "P24", "P80", "P40"], "answer": 0, "official": false, "src": "généré"},
+  {"id": "organiser-13", "section": "organiser", "question": "Quel EPI est prioritaire pour peindre au pistolet?", "options": ["Lunettes", "Gants", "Aucun", "Chaussures ville"], "answer": 0, "official": false, "src": "généré"},
+  {"id": "organiser-14", "section": "organiser", "question": "Avant de commencer, quelle est la première étape pour protéger chantier?", "options": ["Vérifier plan", "Appeler client", "Commencer direct", "Choisir couleur"], "answer": 0, "official": false, "src": "généré"},
+  {"id": "organiser-15", "section": "organiser", "question": "Quel grain abrasif pour finition avant peinture murs intérieurs?", "options": ["P80", "P24", "P40", "P120-180"], "answer": 3, "official": false, "src": "généré"},
+  {"id": "organiser-16", "section": "organiser", "question": "Quel EPI est prioritaire pour poncer un mur?", "options": ["Gants", "Chaussures ville", "Lunettes", "Aucun"], "answer": 2, "official": false, "src": "généré"},
+  {"id": "organiser-17", "section": "organiser", "question": "Avant de commencer, quelle est la première étape pour installer échafaudage?", "options": ["Choisir couleur", "Commencer direct", "Appeler client", "Vérifier plan"], "answer": 3, "official": false, "src": "généré"},
+  {"id": "organiser-18", "section": "organiser", "question": "Quel grain abrasif pour finition avant peinture murs intérieurs?", "options": ["P40", "P24", "P120-180", "P80"], "answer": 2, "official": false, "src": "généré"},
+  {"id": "organiser-19", "section": "organiser", "question": "Quel EPI est prioritaire pour poncer un mur?", "options": ["Aucun", "Gants", "Chaussures ville", "Lunettes"], "answer": 3, "official": false, "src": "généré"},
+  {"id": "organiser-20", "section": "organiser", "question": "Avant de commencer, quelle est la première étape pour protéger chantier?", "options": ["Choisir couleur", "Commencer direct", "Vérifier plan", "Appeler client"], "answer": 2, "official": false, "src": "généré"}
+];
+
+let currentQuestions = [];
+let currentIndex = 0;
+let userAnswers = {};
+
+// Thuật toán xáo trộn Fisher-Yates (Xáo trộn ngẫu nhiên thật sự)
+function shuffleArray(array) {
+  let clone = [...array];
+  for (let i = clone.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [clone[i], clone[j]] = [clone[j], clone[i]];
+  }
+  return clone;
+}
+
+// Khởi tạo Quiz theo Chế độ (Mode) và Nhóm (Section)
+function initQuiz() {
+  const mode = document.getElementById("modeSel").value;
+  const section = document.getElementById("sectionSel").value;
+  
+  let filtered = BANK;
+  if (section && section !== "all") {
+    filtered = BANK.filter(q => q.section === section);
+  }
+
+  if (mode === "test") {
+    // Mode Test: Xáo trộn mảng và lấy ngẫu nhiên 40 câu (hoặc tất cả nếu ít hơn 40)
+    const shuffled = shuffleArray(filtered);
+    currentQuestions = shuffled.slice(0, Math.min(40, shuffled.length));
+  } else {
+    // Mode Entraînement: Giữ nguyên danh sách
+    currentQuestions = [...filtered];
+  }
+
+  currentIndex = 0;
+  userAnswers = {};
+  renderQuestion();
+}
+
+// Hiển thị câu hỏi ra màn hình
+function renderQuestion() {
+  const qCard = document.getElementById("qCard");
+  
+  if (!currentQuestions || currentQuestions.length === 0) {
+    qCard.innerHTML = "<p>Aucune question disponible dans cette section.</p>";
+    return;
+  }
+
+  const q = currentQuestions[currentIndex];
+  let optionsHTML = "";
+  
+  q.options.forEach((opt, idx) => {
+    let btnClass = "opt";
+    if (userAnswers[currentIndex] !== undefined) {
+      if (idx === q.answer) {
+        btnClass += " correct";
+      } else if (userAnswers[currentIndex] === idx) {
+        btnClass += " wrong";
+      }
+    }
+    optionsHTML += `<button class="${btnClass}" onclick="selectAnswer(${idx})">${opt}</button>`;
+  });
+
+  qCard.innerHTML = `
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+      <small>Question ${currentIndex + 1} / ${currentQuestions.length}</small>
+      <small style="text-transform:uppercase; color:#94a3b8;">[${q.section}]</small>
+    </div>
+    <h3 style="margin-top:0;">${q.question}</h3>
+    <div>${optionsHTML}</div>
+  `;
+}
+
+// Xử lý khi chọn đáp án
+function selectAnswer(optIndex) {
+  userAnswers[currentIndex] = optIndex;
+  renderQuestion();
+}
+
+// Lắng nghe sự kiện các nút
+document.getElementById("modeSel").addEventListener("change", initQuiz);
+document.getElementById("sectionSel").addEventListener("change", initQuiz);
+document.getElementById("restartBtn").addEventListener("click", initQuiz);
+
+document.getElementById("prevBtn").addEventListener("click", () => {
+  if (currentIndex > 0) {
+    currentIndex--;
+    renderQuestion();
+  }
+});
+
+document.getElementById("nextBtn").addEventListener("click", () => {
+  if (currentIndex < currentQuestions.length - 1) {
+    currentIndex++;
+    renderQuestion();
+  }
+});
+
+// Tải giao diện lần đầu
+window.onload = () => {
+  const sections = [...new Set(BANK.map(q => q.section))];
+  const sectionSel = document.getElementById("sectionSel");
+  sectionSel.innerHTML = '<option value="all">Toutes les sections</option>' + 
+    sections.map(s => `<option value="${s}">${s}</option>`).join('');
+    
+  initQuiz();
+};
+</script>
+</body>
+</html>
