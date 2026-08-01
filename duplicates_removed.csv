@@ -1,0 +1,131 @@
+﻿removed_index,removed_id,kept_index,kept_id,question,same_options,same_answer,removed_section,kept_section
+17,exam1-17,8,exam1-8,Quel type de peinture convient pour les manchons à poils synthétiques?,True,True,examen-1,examen-1
+241,exam5-1,1,exam1-1,Quel lustre de peinture pour plafond est le plus adapté pour la diffusion de la lumière?,True,True,examen-5,examen-1
+242,exam5-2,2,exam1-2,Quel solvant permet de laver une pompe à peinture qui a servi à pulvériser un imperméabilisant pour béton au silicone?,True,True,examen-5,examen-1
+243,exam5-3,3,exam1-3,Laquelle des propriétés suivantes s'applique aux revêtements à base d'eau?,True,True,examen-5,examen-1
+244,exam5-4,4,exam1-4,Lequel des produits suivants protège du feu en gonflant sur la surface?,True,True,examen-5,examen-1
+245,exam5-5,5,exam1-5,Quel est le meilleur liant utilisé dans les revêtements en déclin de vinyle extérieur?,True,True,examen-5,examen-1
+246,exam5-6,6,exam1-6,Quel est le solvant qui permet de réduire la gomme laque?,True,True,examen-5,examen-1
+247,exam5-7,7,exam1-7,Les principaux facteurs de détérioration des surfaces métalliques proviennent le plus souvent du milieu environnant. Identifier les composants de l'air qui affectent les surfaces métalliques.,True,True,examen-5,examen-1
+248,exam5-8,8,exam1-8,Quel type de peinture convient pour les manchons à poils synthétiques?,True,True,examen-5,examen-1
+249,exam5-9,9,exam1-9,Nommer le rôle du support dans le papier abrasif?,True,True,examen-5,examen-1
+250,exam5-10,10,exam1-10,Quel sigle correspond à l'organisme qui traite les offres soumissions publiques du Québec?,True,True,examen-5,examen-1
+251,exam5-11,11,exam1-11,Quel produit de nettoyage est nécessaire pour éliminer la moisissure?,True,True,examen-5,examen-1
+252,exam5-12,12,exam1-12,Quelle longueur X largeur sécuritaire aurait une tour d'échafaudage en cadre métallique simple de 22' de haut?,True,False,examen-5,examen-1
+253,exam5-13,13,exam1-13,Quelle est la température idéale pour l'application des revêtements à base d'alkyde?,False,True,examen-5,examen-1
+254,exam5-14,14,exam1-14,Quelles sont les 4 provenances possibles des pigments colorant?,True,False,examen-5,examen-1
+255,exam5-15,15,exam1-15,Que faut-il utiliser pour combler un vide sous une patte d'appui d'échafaudage?,True,True,examen-5,examen-1
+256,exam5-16,16,exam1-16,Identifier la cause du défaut d'application au pistolet suivant : Le pistolet réglé a 40 lbs par po2 crachote de petites gouttes de peinture au lieu de la pulvérisation de type du brouillard nécessaire?,True,True,examen-5,examen-1
+257,exam5-17,8,exam1-8,Quel type de peinture convient pour les manchons à poils synthétiques?,True,True,examen-5,examen-1
+258,exam5-18,18,exam1-18,Le cristal à plancher sèche par :,True,False,examen-5,examen-1
+259,exam5-19,19,exam1-19,"Identifier la bonne méthode de pose de vinyle mural 54"" sans motif :",True,True,examen-5,examen-1
+260,exam5-20,20,exam1-20,Quelle chaudière serait nécessaire pour laver une pompe avec un solvant inflammable?,True,True,examen-5,examen-1
+261,exam5-21,21,exam1-21,Nommer la complémentaire directe du rouge,True,True,examen-5,examen-1
+262,exam5-22,22,exam1-22,Quel type de buse (tip) est nécessaire pour apprêter une maison neuve en gypse?,True,False,examen-5,examen-1
+263,exam5-23,23,exam1-23,Quel procédé de nettoyage pour surfaces métalliques correspond à la norme SSPC SP2?,True,True,examen-5,examen-1
+264,exam5-24,24,exam1-24,Quel produit de nettoyage sera nécessaire pour éliminer les huiles et les graisses?,False,True,examen-5,examen-1
+265,exam5-25,25,exam1-25,Quel type de pinceau convient à l'usage du latex?,True,False,examen-5,examen-1
+266,exam5-26,26,exam1-26,Pourquoi les couleurs complémentaires juxtaposées forment un contraste?,True,False,examen-5,examen-1
+267,exam5-27,27,exam1-27,Peut-on déplacer un échafaudage pendant qu'un travailleur s'y trouve?,True,False,examen-5,examen-1
+268,exam5-28,28,exam1-28,Quel produit nettoyant doit-on utiliser pour préparer la surface d'un bain nécessitant une application d'époxy?,True,True,examen-5,examen-1
+269,exam5-29,29,exam1-29,"Compléter la tétrade suivante: rouge, jaune, vert et ....",True,True,examen-5,examen-1
+271,exam5-31,31,exam1-31,Déterminer le rôle de la sous couche,True,False,examen-5,examen-1
+272,exam5-32,32,exam1-32,Quel fini de peinture correspond à un lustre de 45%?,True,False,examen-5,examen-1
+273,exam5-33,33,exam1-33,Laquelle des propriétés suivantes s'appliquent aux revêtements à base de solvant?,True,True,examen-5,examen-1
+275,exam5-35,35,exam1-35,"Simulation de contrôle de qualité: donnée technique 10Mils humide 40% solide, quelle épaisseur devrait être lue par l'inspecteur après la cure du subjectile?",True,True,examen-5,examen-1
+276,exam5-36,36,exam1-36,Lesquels ces apprêts seraient compatibles avec métal galvanisé neuf?,True,False,examen-5,examen-1
+277,exam5-37,37,exam1-37,Quelle couleur est vermillion?,True,True,examen-5,examen-1
+279,exam5-39,39,exam1-39,"Selon la norme SSPC, si on désire un fini par sablage à la perfection on devra choisir :",True,True,examen-5,examen-1
+280,exam5-40,40,exam1-40,Identifier les complémentaires doubles suivants: Vert et bleu,True,True,examen-5,examen-1
+281,exam5-41,41,exam1-41,"Pour une transition de l'alkyde au latex, on utilisera :",True,True,examen-5,examen-1
+282,exam5-42,42,exam1-42,"Pour effectuer un nettoyage par projection d'abrasif humide sur une pièce métallique, on doit utiliser un mélange de sable et d'eau auquel on ajoute :",True,True,examen-5,examen-1
+283,exam5-43,43,exam1-43,"Selon la jauge humide (wet gage), la lecture du feuil est de 12 mils pour un produit à 50% solide. Déterminer le feuil sec correspondant.",True,True,examen-5,examen-1
+285,exam5-45,45,exam1-45,Quel produit parmi les suivants est conseillé pour peindre de la brique extérieur?,True,True,examen-5,examen-1
+286,exam5-46,46,exam1-46,Lesquelles des couleurs suivantes sont considérées chaudes?,True,True,examen-5,examen-1
+287,exam5-47,47,exam1-47,Par où doit-on finir de peindre une pièce?,True,True,examen-5,examen-1
+289,exam5-49,49,exam1-49,La couleur turquoise est composée de :,True,True,examen-5,examen-1
+290,exam5-50,50,exam1-50,Lequel de produits suivants doit être impérativement pulvérisé?,True,True,examen-5,examen-1
+291,exam5-51,51,exam1-51,Quel métal produit le vert de gris?,True,True,examen-5,examen-1
+292,exam5-52,52,exam1-52,Une échelle doit avoir une distance de combien de pieds au bas si elle est appuyée à une hauteur de 16 pieds?,True,False,examen-5,examen-1
+293,exam5-53,53,exam1-53,"Lors de la finition d'une surface en bois, quand faut-il mettre l'enduit de remplissage?",True,False,examen-5,examen-1
+294,exam5-54,54,exam1-54,"Sur un mur, de quelle manière doit-on poser le vinyle?",True,True,examen-5,examen-1
+295,exam5-55,55,exam1-55,Identifier l'alliage parmi les énoncés suivants?,True,True,examen-5,examen-1
+296,exam5-56,56,exam1-56,Lorsque la peinture pigmentée sèche :,True,True,examen-5,examen-1
+297,exam5-57,57,exam1-57,De masque respirateur utilise quelle substance pour filtrer les COV?,True,True,examen-5,examen-1
+298,exam5-58,58,exam1-58,Comment doit-on neutraliser une surface qui a été décapé chimiquement?,True,False,examen-5,examen-1
+299,exam5-59,59,exam1-59,Pourquoi ajoute-t-on un diluant dans la peinture?,True,True,examen-5,examen-1
+301,exam6-1,61,exam2-1,"Quand on utilise une pompe à peinturer, il est préférable pour des travaux éloignés de 150 pieds de la source d'énergie...",True,False,examen-6,examen-2
+302,exam6-2,62,exam2-2,"Quelle distance permet de positionner de façon sécuritaire la base d'une échelle télescopique, si on atteint 32 pieds de hauteur?",True,False,examen-6,examen-2
+303,exam6-3,63,exam2-3,Quelle couleur résulte du mélange d'une teinte de bleu et de vert?,True,False,examen-6,examen-2
+304,exam6-4,64,exam2-4,Comment doit-on se positionner pour inspecter les plafonds finis?,True,True,examen-6,examen-2
+305,exam6-5,65,exam2-5,Quelle peinture est préférable pour apprêter une armoire en mélamine?,True,True,examen-6,examen-2
+306,exam6-6,66,exam2-6,Quel produit est compatible au calfeutrant à base de goudron?,True,False,examen-6,examen-2
+307,exam6-7,67,exam2-7,Quelle hauteur d'échafaudage justifier la présence de la potence?,True,False,examen-6,examen-2
+308,exam6-8,68,exam2-8,Lequel des produits suivants est recommandé sur des murs de gypse déjà peint au latex?,True,False,examen-6,examen-2
+309,exam6-9,69,exam2-9,Quel produit bloquera les colorants aqua soluble du cèdre extérieur?,True,False,examen-6,examen-2
+311,exam6-11,71,exam2-11,Comment faire ressortir des légères dépressions dans un bois mou?,True,True,examen-6,examen-2
+312,exam6-12,72,exam2-12,Quelles associations certifient la conformité des produits chimiques au Québec?,True,False,examen-6,examen-2
+313,exam6-13,73,exam2-13,Combien couvre un rouleau de tapisserie double de 27 pouces de largeur?,True,False,examen-6,examen-2
+314,exam6-14,74,exam2-14,Quel filament pour pinceau ne permet pas de peindre adéquatement le latex?,True,False,examen-6,examen-2
+315,exam6-15,75,exam2-15,Quelle composante de la peinture permet d'augmenter la fluidité?,True,False,examen-6,examen-2
+316,exam6-16,76,exam2-16,Déterminer le code des buses pour pompe à peinture nécessaire pour peindre une des poutres commerciales en acier de 3 pouces de largeur avec de la peinture à retomber sèche au solvant?,True,True,examen-6,examen-2
+317,exam6-17,77,exam2-17,Quelle épaisseur de manchon est nécessaire pour apprêter des murs de gypse au latex?,True,False,examen-6,examen-2
+318,exam6-18,78,exam2-18,Quelle grosseur des grains d'abrasifs est nécessaire pour poncer entre les couches de peinture?,True,False,examen-6,examen-2
+319,exam6-19,79,exam2-19,Quel avantage a le pistolet HVLP versus les traditionnels?,True,False,examen-6,examen-2
+320,exam6-20,80,exam2-20,Quelle quantité de phosphate tri sodique doit-on mélanger dans l'eau pour traiter une surface de mélamine graisseuse?,True,False,examen-6,examen-2
+321,exam6-21,81,exam2-21,Quel abrasif est disponible en grade de 400G à 600G?,True,False,examen-6,examen-2
+322,exam6-22,82,exam2-22,Quel solvant est compatible avec l'alkyde uréthane?,True,False,examen-6,examen-2
+323,exam6-23,83,exam2-23,"Compléter la tétrade suivante: jaune-vert, jaune-orange....?",True,True,examen-6,examen-2
+324,exam6-24,84,exam2-24,De combien doit-on réduire le matériel pour l'utilisation d'un pistolet vaporisateur de type succion?,True,False,examen-6,examen-2
+325,exam6-25,85,exam2-25,Lorsque nous appliquons 12 mils d'un produit à 25% de solide on obtient en feuil sec....?,True,True,examen-6,examen-2
+326,exam6-26,86,exam2-26,Quelle est la couleur considérée comme la plus froide?,True,False,examen-6,examen-2
+327,exam6-27,87,exam2-27,Quelle largeur de finition est recommandée pour la finition des joints d'angles intérieurs lors des travaux de jointoiement?,True,False,examen-6,examen-2
+328,exam6-28,88,exam2-28,À quoi servent les adjuvants dans la composition des peintures?,True,False,examen-6,examen-2
+329,exam6-29,89,exam2-29,Quelle grosseur de laine d'acier est recommandée pour le polissage d'une surface vernie rendue matte avec le temps?,True,False,examen-6,examen-2
+330,exam6-30,90,exam2-30,Pour poncer les surfaces murales de gypse entre les couches de latex,True,False,examen-6,examen-2
+331,exam6-31,91,exam2-31,Quelle information retrouve-t-on dans la fiche technique?,True,False,examen-6,examen-2
+332,exam6-32,92,exam2-32,Comment produire la couleur verte?,True,False,examen-6,examen-2
+333,exam6-33,93,exam2-33,Décrire l'utilité de l'acide phosphorique,True,False,examen-6,examen-2
+334,exam6-34,94,exam2-34,À quoi sert la buse du pistolet?,True,True,examen-6,examen-2
+335,exam6-35,95,exam2-35,Nommer la triade des couleurs secondaires,True,False,examen-6,examen-2
+336,exam6-36,96,exam2-36,Identifier l'essence de bois à grains ouverts,True,True,examen-6,examen-2
+337,exam6-37,97,exam2-37,Quelles composantes de la peinture sont affectées par le gel du contenant?,True,True,examen-6,examen-2
+338,exam6-38,98,exam2-38,Quel filtre pour pompe à peinture est requis pour la peinture au latex,True,False,examen-6,examen-2
+339,exam6-39,99,exam2-39,Quelle sera la réaction lors de l'application d'un époxy hautement solvanté sur un apprêt à base de latex?,True,True,examen-6,examen-2
+340,exam6-40,100,exam2-40,Comment obtient-on une nuance?,True,False,examen-6,examen-2
+341,exam6-41,101,exam2-41,Quel abrasif pour ponçage au jet à la plus grande résistance à l'autodestruction,True,True,examen-6,examen-2
+342,exam6-42,102,exam2-42,Quel type d'apprêt est nécessaire pour une dalle de béton neuve qui recevra un enduit polystyrène,True,False,examen-6,examen-2
+343,exam6-43,103,exam2-43,Comment obtient-on un agencement de couleurs analogiques?,True,False,examen-6,examen-2
+344,exam6-44,104,exam2-44,Lors de l'utilisation d'échafaudage à cadre régulier combien de cadres seront nécessaire pour un montage de 3 sections de long par 3 de haut?,True,False,examen-6,examen-2
+345,exam6-45,105,exam2-45,Nommer la complémentaire directe du rouge orangé,True,True,examen-6,examen-2
+346,exam6-46,106,exam2-46,Comment se nomme le temps d'attente avant l'application d'une peinture epoxydique?,True,True,examen-6,examen-2
+347,exam6-47,107,exam2-47,Comment se nomme le phénomène de séchage de la laque pigmenté,True,True,examen-6,examen-2
+348,exam6-48,108,exam2-48,"Pour la pose de tapisserie murale dans une chambre, par où devront nous commencer à tapisser?",True,True,examen-6,examen-2
+349,exam6-49,109,exam2-49,Quelle association canadienne contrôle la qualité des madriers destinés au échafaudage?,True,False,examen-6,examen-2
+350,exam6-50,110,exam2-50,Les couleurs préparées dans une base blanche sont automatiquement:,True,False,examen-6,examen-2
+351,exam6-51,111,exam2-51,Quel produit nous permet d'éliminer des taches d'encre de chine,True,True,examen-6,examen-2
+352,exam6-52,112,exam2-52,À quelle couleur est reliée le nom de Outremer,True,False,examen-6,examen-2
+353,exam6-53,113,exam2-53,Quel type de manchon convient le mieux pour la peinture à l'alkyde très lustré?,True,True,examen-6,examen-2
+354,exam6-54,114,exam2-54,De quelle façon pouvons-nous faire ressortir des fibres de bois enfoncées?,True,False,examen-6,examen-2
+355,exam6-55,115,exam2-55,Identifier l'essence de bois à grain ouvert,True,True,examen-6,examen-2
+356,exam6-56,116,exam2-56,Comment ce nomme le pistolet requis pour pulvériser du polystyrène,True,True,examen-6,examen-2
+357,exam6-57,117,exam2-57,Quelle colle permet d'adhérer des revêtements muraux lourds?,True,False,examen-6,examen-2
+358,exam6-58,118,exam2-58,Lors d'un désaccord entre le plan et le devis,True,False,examen-6,examen-2
+359,exam6-59,119,exam2-59,Quelle peinture est destinée au solage extérieur?,True,False,examen-6,examen-2
+360,exam6-60,120,exam2-60,Quel apprêt est requis lors de la préparation pour la tapisserie?,True,False,examen-6,examen-2
+394,exam7-34,92,exam2-32,Comment produire la couleur verte?,False,False,examen-7,examen-2
+398,exam7-38,96,exam2-36,Identifier l'essence de bois à grains ouverts,False,False,examen-7,examen-2
+446,exam8-26,86,exam2-26,Quelle est la couleur considérée comme la plus froide?,True,False,examen-8,examen-2
+447,exam8-27,87,exam2-27,Quelle largeur de finition est recommandée pour la finition des joints d'angles intérieurs lors des travaux de jointoiement?,True,False,examen-8,examen-2
+448,exam8-28,88,exam2-28,À quoi servent les adjuvants dans la composition des peintures?,False,False,examen-8,examen-2
+449,exam8-29,89,exam2-29,Quelle grosseur de laine d'acier est recommandée pour le polissage d'une surface vernie rendue matte avec le temps?,True,False,examen-8,examen-2
+451,exam8-31,91,exam2-31,Quelle information retrouve-t-on dans la fiche technique?,False,False,examen-8,examen-2
+453,exam8-33,93,exam2-33,Décrire l'utilité de l'acide phosphorique,False,False,examen-8,examen-2
+455,exam8-35,95,exam2-35,Nommer la triade des couleurs secondaires,True,False,examen-8,examen-2
+456,exam8-36,96,exam2-36,Identifier l'essence de bois à grains ouverts,False,True,examen-8,examen-2
+460,exam8-40,402,exam7-42,Comment obtient-on un ton?,False,True,examen-8,examen-7
+463,exam8-43,405,exam7-45,Comment obtient-on une couleur tertiaire?,False,True,examen-8,examen-7
+466,exam8-46,408,exam7-48,Comment se nomme le temps disponible pour l'application d'une peinture époxydique?,True,True,examen-8,examen-7
+471,exam8-51,414,exam7-54,Nommer l'enduit de rebouchage recommandé pour les surfaces murales,False,True,examen-8,examen-7
+474,exam8-54,114,exam2-54,De quelle façon pouvons-nous faire ressortir des fibres de bois enfoncées?,True,False,examen-8,examen-2
+475,exam8-55,115,exam2-55,Identifier l'essence de bois à grain ouvert,True,True,examen-8,examen-2
