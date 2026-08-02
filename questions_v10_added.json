@@ -1,0 +1,596 @@
+[
+  {
+    "id": "v10-001",
+    "section": "v10-gyproc",
+    "question": "Pour remplacer une cornière métallique manquante sur un angle extérieur, quelle solution est la plus courante?",
+    "options": [
+      "Du ruban de papier ordinaire",
+      "Une cornière vinyle ou composite de type No-Coat",
+      "Du calfeutrant seulement",
+      "Deux couches épaisses de composé"
+    ],
+    "answer": 1,
+    "official": false,
+    "src": "Quebec Field Practice",
+    "source_type": "Quebec Field Practice",
+    "confidence": "high",
+    "difficulty": "medium",
+    "explanation": "Une cornière rigide en vinyle ou composite protège l'angle beaucoup mieux qu'un simple ruban."
+  },
+  {
+    "id": "v10-002",
+    "section": "v10-gyproc",
+    "question": "Quel produit est généralement préféré pour une réparation profonde qui doit durcir rapidement?",
+    "options": [
+      "Composé léger prêt à l'emploi",
+      "Composé à prise chimique de type Durabond",
+      "Primer acrylique",
+      "Calfeutrant au latex"
+    ],
+    "answer": 1,
+    "official": false,
+    "src": "Quebec Field Practice",
+    "source_type": "Quebec Field Practice",
+    "confidence": "high",
+    "difficulty": "medium",
+    "explanation": "Un composé à prise chimique durcit vite et rétrécit moins dans une réparation profonde."
+  },
+  {
+    "id": "v10-003",
+    "section": "v10-gyproc",
+    "question": "Pourquoi ne faut-il pas appliquer une couche très épaisse de composé prêt à l'emploi?",
+    "options": [
+      "Elle devient trop blanche",
+      "Elle sèche lentement et risque de rétrécir ou fissurer",
+      "Elle empêche toute adhérence",
+      "Elle fait rouiller les vis"
+    ],
+    "answer": 1,
+    "official": false,
+    "src": "Quebec Field Practice",
+    "source_type": "Quebec Field Practice",
+    "confidence": "high",
+    "difficulty": "medium",
+    "explanation": "Les couches minces sèchent plus uniformément et limitent retrait et fissuration."
+  },
+  {
+    "id": "v10-004",
+    "section": "v10-gyproc",
+    "question": "Lorsqu'un ruban de papier forme une bulle après séchage, quelle est la cause la plus probable?",
+    "options": [
+      "Trop de peinture",
+      "Manque de composé sous le ruban",
+      "Papier trop épais",
+      "Température trop élevée uniquement"
+    ],
+    "answer": 1,
+    "official": false,
+    "src": "Quebec Field Practice",
+    "source_type": "Quebec Field Practice",
+    "confidence": "high",
+    "difficulty": "medium",
+    "explanation": "Sans assez de composé, le ruban n'adhère pas partout et emprisonne de l'air."
+  },
+  {
+    "id": "v10-005",
+    "section": "v10-gyproc",
+    "question": "Quel éclairage permet le mieux de repérer les défauts avant l'apprêt?",
+    "options": [
+      "Lumière frontale diffuse",
+      "Lumière rasante le long du mur",
+      "Lampe vers le plafond",
+      "Pièce sombre"
+    ],
+    "answer": 1,
+    "official": false,
+    "src": "Quebec Field Practice",
+    "source_type": "Quebec Field Practice",
+    "confidence": "high",
+    "difficulty": "medium",
+    "explanation": "La lumière rasante révèle bosses, creux et marques de couteau."
+  },
+  {
+    "id": "v10-006",
+    "section": "v10-gyproc",
+    "question": "Que faut-il faire si le papier du panneau de gypse est arraché et brun apparaît?",
+    "options": [
+      "Peindre directement",
+      "Sceller la zone avant de réparer",
+      "Mouiller abondamment",
+      "Poncer jusqu'au carton"
+    ],
+    "answer": 1,
+    "official": false,
+    "src": "Quebec Field Practice",
+    "source_type": "Quebec Field Practice",
+    "confidence": "high",
+    "difficulty": "medium",
+    "explanation": "Le papier exposé peut cloquer sous un produit à l'eau; on le scelle d'abord."
+  },
+  {
+    "id": "v10-007",
+    "section": "v10-bois",
+    "question": "Dans quel sens doit-on effectuer le dernier ponçage manuel du bois?",
+    "options": [
+      "En travers du fil",
+      "Dans le sens du fil",
+      "En cercle",
+      "Sans direction"
+    ],
+    "answer": 1,
+    "official": false,
+    "src": "Quebec Field Practice",
+    "source_type": "Quebec Field Practice",
+    "confidence": "high",
+    "difficulty": "medium",
+    "explanation": "Les rayures parallèles au fil sont moins visibles après teinture ou vernis."
+  },
+  {
+    "id": "v10-008",
+    "section": "v10-bois",
+    "question": "Pourquoi évite-t-on généralement P80 sur un placage mince?",
+    "options": [
+      "Il est trop fin",
+      "Il peut traverser rapidement le placage",
+      "Il bouche toujours le bois",
+      "Il empêche le séchage"
+    ],
+    "answer": 1,
+    "official": false,
+    "src": "Quebec Field Practice",
+    "source_type": "Quebec Field Practice",
+    "confidence": "high",
+    "difficulty": "medium",
+    "explanation": "Le placage est mince et peut être percé rapidement par un grain agressif."
+  },
+  {
+    "id": "v10-009",
+    "section": "v10-bois",
+    "question": "Quelle progression est raisonnable pour remettre à nu un bois massif très abîmé?",
+    "options": [
+      "P40 à P320 directement",
+      "P80, P120 puis P150 ou P180",
+      "P600 seulement",
+      "P220 puis P60"
+    ],
+    "answer": 1,
+    "official": false,
+    "src": "Quebec Field Practice",
+    "source_type": "Quebec Field Practice",
+    "confidence": "high",
+    "difficulty": "medium",
+    "explanation": "Une progression régulière efface les rayures du grain précédent."
+  },
+  {
+    "id": "v10-010",
+    "section": "v10-bois",
+    "question": "Pour une teinture pénétrante sur chêne, jusqu'à quel grain s'arrête-t-on souvent?",
+    "options": [
+      "P60",
+      "P120 à P180 selon le résultat",
+      "P400 minimum",
+      "P1000"
+    ],
+    "answer": 1,
+    "official": false,
+    "src": "Quebec Field Practice",
+    "source_type": "Quebec Field Practice",
+    "confidence": "high",
+    "difficulty": "medium",
+    "explanation": "Un ponçage trop fin peut réduire l'absorption de la teinture."
+  },
+  {
+    "id": "v10-011",
+    "section": "v10-bois",
+    "question": "Pourquoi les chants de MDF demandent-ils plus de préparation que les faces?",
+    "options": [
+      "Ils sont moins poreux",
+      "Ils absorbent fortement les produits",
+      "Ils contiennent du métal",
+      "Ils sont déjà vernis"
+    ],
+    "answer": 1,
+    "official": false,
+    "src": "Quebec Field Practice",
+    "source_type": "Quebec Field Practice",
+    "confidence": "high",
+    "difficulty": "medium",
+    "explanation": "Les fibres ouvertes des chants absorbent beaucoup d'apprêt et doivent être scellées."
+  },
+  {
+    "id": "v10-012",
+    "section": "v10-bois",
+    "question": "Quel est le risque d'un ponçage trop fin avant une teinture pénétrante?",
+    "options": [
+      "Absorption réduite et couleur plus pâle",
+      "Rouille immédiate",
+      "Fissuration du métal",
+      "Prise trop rapide"
+    ],
+    "answer": 0,
+    "official": false,
+    "src": "Quebec Field Practice",
+    "source_type": "Quebec Field Practice",
+    "confidence": "high",
+    "difficulty": "medium",
+    "explanation": "Une surface trop polie ferme davantage les pores du bois."
+  },
+  {
+    "id": "v10-013",
+    "section": "v10-bois",
+    "question": "Pour un bois résineux noueux, quel apprêt bloque le mieux les saignements?",
+    "options": [
+      "Un bloque-taches shellac ou alkyd compatible",
+      "Un latex de finition seulement",
+      "De l'eau savonneuse",
+      "Du composé à joints"
+    ],
+    "answer": 0,
+    "official": false,
+    "src": "Quebec Field Practice",
+    "source_type": "Quebec Field Practice",
+    "confidence": "high",
+    "difficulty": "medium",
+    "explanation": "Les nœuds peuvent migrer à travers les peintures; il faut un scellant approprié."
+  },
+  {
+    "id": "v10-014",
+    "section": "v10-melamine",
+    "question": "Quelle préparation est généralement la plus fiable avant de peindre du mélamine?",
+    "options": [
+      "Peindre directement",
+      "Nettoyer, dégraisser, dépolir légèrement puis appliquer un apprêt d'adhérence",
+      "Poncer P40",
+      "Appliquer du composé"
+    ],
+    "answer": 1,
+    "official": false,
+    "src": "Quebec Field Practice",
+    "source_type": "Quebec Field Practice",
+    "confidence": "high",
+    "difficulty": "medium",
+    "explanation": "Le mélamine est lisse et peu poreux; il faut nettoyage, dépolissage et bonding primer."
+  },
+  {
+    "id": "v10-015",
+    "section": "v10-melamine",
+    "question": "Quel grain est couramment utilisé pour dépolir du mélamine sans traverser la surface?",
+    "options": [
+      "P40",
+      "P80",
+      "P180 à P220",
+      "P600 uniquement"
+    ],
+    "answer": 2,
+    "official": false,
+    "src": "Quebec Field Practice",
+    "source_type": "Quebec Field Practice",
+    "confidence": "high",
+    "difficulty": "medium",
+    "explanation": "Le but est de casser le brillant, non d'enlever la couche décorative."
+  },
+  {
+    "id": "v10-016",
+    "section": "v10-melamine",
+    "question": "Pourquoi faut-il dégraisser avant de poncer une porte d'armoire?",
+    "options": [
+      "Pour éviter d'étaler les contaminants dans les rayures",
+      "Pour ramollir le bois",
+      "Pour accélérer la rouille",
+      "Pour remplacer l'apprêt"
+    ],
+    "answer": 0,
+    "official": false,
+    "src": "Quebec Field Practice",
+    "source_type": "Quebec Field Practice",
+    "confidence": "high",
+    "difficulty": "medium",
+    "explanation": "Poncer une surface grasse peut incruster huile, cire ou silicone."
+  },
+  {
+    "id": "v10-017",
+    "section": "v10-melamine",
+    "question": "Quel signe montre que le ponçage du mélamine est trop agressif?",
+    "options": [
+      "Surface uniformément mate",
+      "MDF ou panneau brun visible",
+      "Moins de poussière",
+      "Grain plus fin"
+    ],
+    "answer": 1,
+    "official": false,
+    "src": "Quebec Field Practice",
+    "source_type": "Quebec Field Practice",
+    "confidence": "high",
+    "difficulty": "medium",
+    "explanation": "L'apparition du support signifie que la couche de mélamine a été traversée."
+  },
+  {
+    "id": "v10-018",
+    "section": "v10-airless",
+    "question": "Un motif airless présente deux queues aux extrémités. Quelle est la première correction habituelle?",
+    "options": [
+      "Réduire fortement la pression",
+      "Augmenter progressivement la pression ou vérifier la buse",
+      "Diluer au hasard",
+      "Éloigner à un mètre"
+    ],
+    "answer": 1,
+    "official": false,
+    "src": "Quebec Field Practice",
+    "source_type": "Quebec Field Practice",
+    "confidence": "high",
+    "difficulty": "medium",
+    "explanation": "Les queues indiquent souvent une atomisation insuffisante ou une buse usée/inadaptée."
+  },
+  {
+    "id": "v10-019",
+    "section": "v10-airless",
+    "question": "Quelle distance de pulvérisation est généralement maintenue avec un airless?",
+    "options": [
+      "2 à 5 cm",
+      "20 à 30 cm environ",
+      "60 à 90 cm",
+      "Plus d'un mètre"
+    ],
+    "answer": 1,
+    "official": false,
+    "src": "Quebec Field Practice",
+    "source_type": "Quebec Field Practice",
+    "confidence": "high",
+    "difficulty": "medium",
+    "explanation": "Une distance stable d'environ 20 à 30 cm favorise un dépôt uniforme."
+  },
+  {
+    "id": "v10-020",
+    "section": "v10-airless",
+    "question": "Comment doit-on tenir le pistolet par rapport à la surface?",
+    "options": [
+      "Perpendiculaire",
+      "À 15 degrés",
+      "En arc prononcé",
+      "Parallèle au mur"
+    ],
+    "answer": 0,
+    "official": false,
+    "src": "Quebec Field Practice",
+    "source_type": "Quebec Field Practice",
+    "confidence": "high",
+    "difficulty": "medium",
+    "explanation": "Le pistolet perpendiculaire conserve une épaisseur uniforme."
+  },
+  {
+    "id": "v10-021",
+    "section": "v10-airless",
+    "question": "Quel chevauchement entre passes est couramment utilisé?",
+    "options": [
+      "10 %",
+      "25 %",
+      "Environ 50 %",
+      "100 %"
+    ],
+    "answer": 2,
+    "official": false,
+    "src": "Quebec Field Practice",
+    "source_type": "Quebec Field Practice",
+    "confidence": "high",
+    "difficulty": "medium",
+    "explanation": "Viser le bord de la passe précédente avec le centre du jet donne environ 50 %."
+  },
+  {
+    "id": "v10-022",
+    "section": "v10-airless",
+    "question": "Si la pression au pistolet baisse avec une très longue conduite, quelle cause est plausible?",
+    "options": [
+      "Perte de charge dans le boyau",
+      "Couleur trop claire",
+      "Lumière insuffisante",
+      "Température de la pièce"
+    ],
+    "answer": 0,
+    "official": false,
+    "src": "Quebec Field Practice",
+    "source_type": "Quebec Field Practice",
+    "confidence": "high",
+    "difficulty": "medium",
+    "explanation": "La longueur et le diamètre du boyau influencent les pertes de pression."
+  },
+  {
+    "id": "v10-023",
+    "section": "v10-airless",
+    "question": "Quel risque accompagne une pression inutilement trop élevée?",
+    "options": [
+      "Plus d'overspray et usure de la buse",
+      "Aucun risque",
+      "Toujours moins de brouillard",
+      "Finition toujours plus lisse"
+    ],
+    "answer": 0,
+    "official": false,
+    "src": "Quebec Field Practice",
+    "source_type": "Quebec Field Practice",
+    "confidence": "high",
+    "difficulty": "medium",
+    "explanation": "La pression doit être juste assez élevée pour nettoyer le motif."
+  },
+  {
+    "id": "v10-024",
+    "section": "v10-faux-beton",
+    "question": "Pour un faux béton réaliste, pourquoi applique-t-on plusieurs couches minces?",
+    "options": [
+      "Pour contrôler texture, profondeur et séchage",
+      "Pour créer des coulures",
+      "Pour supprimer les nuances",
+      "Pour rendre brillant"
+    ],
+    "answer": 0,
+    "official": false,
+    "src": "Quebec Field Practice",
+    "source_type": "Quebec Field Practice",
+    "confidence": "high",
+    "difficulty": "medium",
+    "explanation": "Les couches minces permettent de superposer nuances et irrégularités."
+  },
+  {
+    "id": "v10-025",
+    "section": "v10-faux-beton",
+    "question": "Quel outil est souvent utilisé pour créer des variations de faux béton?",
+    "options": [
+      "Taloche ou couteau inox, éponge et brosse selon le système",
+      "Scie circulaire",
+      "Brosse métallique uniquement",
+      "Rouleau très long obligatoire"
+    ],
+    "answer": 0,
+    "official": false,
+    "src": "Quebec Field Practice",
+    "source_type": "Quebec Field Practice",
+    "confidence": "high",
+    "difficulty": "medium",
+    "explanation": "Taloche, couteau et éponge sont courants selon le produit."
+  },
+  {
+    "id": "v10-026",
+    "section": "v10-faux-beton",
+    "question": "Pourquoi faut-il casser la régularité d'un faux béton?",
+    "options": [
+      "Le béton réel présente des nuances et irrégularités",
+      "Pour cacher toutes les couleurs",
+      "Pour rendre uniforme",
+      "Pour éviter le scellant"
+    ],
+    "answer": 0,
+    "official": false,
+    "src": "Quebec Field Practice",
+    "source_type": "Quebec Field Practice",
+    "confidence": "high",
+    "difficulty": "medium",
+    "explanation": "Un motif trop répétitif paraît artificiel."
+  },
+  {
+    "id": "v10-027",
+    "section": "v10-faux-bois",
+    "question": "Dans un faux bois, quelle relation de couleur est généralement recherchée?",
+    "options": [
+      "Fond plus clair avec glacis plus foncé",
+      "Fond noir et glacis blanc seulement",
+      "Deux couleurs identiques",
+      "Aucune couche de fond"
+    ],
+    "answer": 0,
+    "official": false,
+    "src": "Quebec Field Practice",
+    "source_type": "Quebec Field Practice",
+    "confidence": "high",
+    "difficulty": "medium",
+    "explanation": "Le fond représente la couleur claire; le glacis crée le grain et la profondeur."
+  },
+  {
+    "id": "v10-028",
+    "section": "v10-faux-bois",
+    "question": "Quel outil produit les arches caractéristiques d'un faux grain de bois?",
+    "options": [
+      "Un rocker à faux bois",
+      "Une truelle dentée",
+      "Un rouleau 25 mm",
+      "Un grattoir"
+    ],
+    "answer": 0,
+    "official": false,
+    "src": "Quebec Field Practice",
+    "source_type": "Quebec Field Practice",
+    "confidence": "high",
+    "difficulty": "medium",
+    "explanation": "Le mouvement de bascule du rocker dessine les cathédrales du grain."
+  },
+  {
+    "id": "v10-029",
+    "section": "v10-faux-bois",
+    "question": "À quoi sert un peigne à faux bois?",
+    "options": [
+      "Créer des lignes fines dans le glacis",
+      "Poncer le support",
+      "Mélanger la peinture",
+      "Appliquer l'apprêt"
+    ],
+    "answer": 0,
+    "official": false,
+    "src": "Quebec Field Practice",
+    "source_type": "Quebec Field Practice",
+    "confidence": "high",
+    "difficulty": "medium",
+    "explanation": "Le peigne tire des fibres parallèles dans le glacis encore ouvert."
+  },
+  {
+    "id": "v10-030",
+    "section": "v10-faux-bois",
+    "question": "Quel est le rôle d'une brosse adoucisseuse dans un faux bois?",
+    "options": [
+      "Atténuer les marques et fondre le grain",
+      "Décaper le bois",
+      "Créer des trous",
+      "Appliquer du ciment"
+    ],
+    "answer": 0,
+    "official": false,
+    "src": "Quebec Field Practice",
+    "source_type": "Quebec Field Practice",
+    "confidence": "high",
+    "difficulty": "medium",
+    "explanation": "Elle réduit les lignes trop dures et rend l'effet plus naturel."
+  },
+  {
+    "id": "v10-031",
+    "section": "v10-faux-marbre",
+    "question": "Dans un faux marbre, pourquoi les veines ne doivent-elles pas être toutes identiques?",
+    "options": [
+      "La pierre naturelle présente des veines irrégulières",
+      "Pour économiser la couleur",
+      "Pour aplatir la surface",
+      "Pour remplacer le vernis"
+    ],
+    "answer": 0,
+    "official": false,
+    "src": "Quebec Field Practice",
+    "source_type": "Quebec Field Practice",
+    "confidence": "high",
+    "difficulty": "medium",
+    "explanation": "Des veines répétitives et uniformes donnent un aspect artificiel."
+  },
+  {
+    "id": "v10-032",
+    "section": "v10-faux-marbre",
+    "question": "Quel outil peut servir à adoucir une veine de faux marbre?",
+    "options": [
+      "Une plume ou une brosse douce",
+      "Un marteau",
+      "Une ponceuse P40",
+      "Une roulette à joints"
+    ],
+    "answer": 0,
+    "official": false,
+    "src": "Quebec Field Practice",
+    "source_type": "Quebec Field Practice",
+    "confidence": "high",
+    "difficulty": "medium",
+    "explanation": "Une plume ou une brosse légère casse les bords et ajoute de la profondeur."
+  },
+  {
+    "id": "v10-033",
+    "section": "v10-faux-rouille",
+    "question": "Comment obtient-on une vraie patine de rouille avec un système réactif?",
+    "options": [
+      "Peinture contenant du fer puis activateur approprié",
+      "Latex blanc seulement",
+      "Primer gypse et eau",
+      "Cire automobile"
+    ],
+    "answer": 0,
+    "official": false,
+    "src": "Quebec Field Practice",
+    "source_type": "Quebec Field Practice",
+    "confidence": "high",
+    "difficulty": "medium",
+    "explanation": "Le fer de la couche réagit avec l'activateur pour produire une oxydation réelle."
+  }
+]
